@@ -4,7 +4,7 @@ Agt_Frame
 </binder>
 <field>
 
-Agt.Title=Mutual Nondisclosure Agreement
+Agt.Title=Unilateral Nondisclosure Agreement
 
 Agt.Prologue.ThisAgreement={ThisAgt.Intro}  {Def.P1} {Def.P2}
 
