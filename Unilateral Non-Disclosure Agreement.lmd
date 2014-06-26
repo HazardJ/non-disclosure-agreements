@@ -1,24 +1,25 @@
 <binder>
 WatershedLegal OneWay NDA AGT Library
-Agt_Frame
+AGT_Frame
 </binder>
+
 <field>
 
-Agt.Title=Unilateral Nondisclosure Agreement
+AGT.Title=Unilateral Nondisclosure Agreement
 
-Agt.Prologue.ThisAgreement={ThisAgt.Intro}  {Def.P1} {Def.P2}
+AGT.Prologue.ThisAgreement={ThisAGT.Intro}  {Def.P1} {Def.P2}
 
-ThisAgt.Intro=This Nondisclosure Agreement (the “Agreement”) is entered into as of {date} by and between {party1_full} ("{party1}"), and {party2_full} ("{party2}").
+ThisAGT.Intro=This Nondisclosure Agreement (the “Agreement”) is entered into as of {date} by and between {party1_full} ("{party1}"), and {party2_full} ("{party2}").
 
 Def.P1={party1} is a {party1_type} registered under the laws of {party1_reg}, with an address of {party1_address}, operating in and therefore subject to the laws of {party1_reg}, and represented by {party1_representative}.
 
 Def.P2={party2} is a {party2_type} registered under the laws of {party2_reg}, with an address of {party2_address}, operating in and therefore subject to the laws of {party2_reg}, and represented by {party2_representative}.
 
-Agt.Prologue.Recital=Whereas both parties desire to explore the possibility of a business relationship between themselves, {party1} (“Discloser”) may disclose sensitive information to {party2} (“Recipient”).
+AGT.Prologue.Recital=Whereas both parties desire to explore the possibility of a business relationship between themselves, {party1} (“Discloser”) may disclose sensitive information to {party2} (“Recipient”).
 
-Prologue.NowTherefore=IN CONSIDERATION OF THE MUTUAL PROMISES AND COVENANTS CONTAINED IN THIS AGREEMENT, THE PARTIES AGREE AS FOLLOWS.
+AGT.Prologue.NowTherefore=IN CONSIDERATION OF THE MUTUAL PROMISES AND COVENANTS CONTAINED IN THIS AGREEMENT, THE PARTIES AGREE AS FOLLOWS.
 
-Agt._Secs=<ol><li>{Conf._Sec}</li><li>{Engage._Sec}</li><li>{Compel._Sec}</li><li>{Limit._Sec}</li><li>{Term._Sec}</li><li>{Misc._Sec}</li></ol>
+AGT._Secs=<ol><li>{Conf._Sec}</li><li>{Engage._Sec}</li><li>{Compel._Sec}</li><li>{Limit._Sec}</li><li>{Term._Sec}</li><li>{Misc._Sec}</li></ol>
 
 Conf._Sec=<u>Confidential Information</u><ol><li>{Conf.Def._Sec}</li><li>{Conf.Trade_Secrets._Sec}</li><li>{Conf.Except._Sec}</li><li>{Conf.AuthorityToDisclose._Sec}</li></ol>
 
@@ -117,7 +118,6 @@ Misc.Law._Sec=<u>Governing Law</u>. This Agreement shall be governed by and cons
 Misc.AttyFee._Sec=<u>Attorney's Fees and Costs</u>.  In any action or proceeding to enforce or interpret this Agreement, the prevailing party will be entitled to recover from the other party its costs and expenses (including reasonable attorneys' fees) incurred in connection with such action or proceeding and enforcing any judgment or order obtained.
 
 one year after the date of this Agreement=one year after the date of this Agreement
-
 5 years=5 years
 the governing-law=the {governing-law}
 </field>
